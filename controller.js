@@ -8,6 +8,7 @@ export const protect = async(req,res,next) => {
 
 export const controller = async(req,res,next) => {
     console.log(req.user)
+    console.log('qweqwe')
 }
 
 export const get = async(req,res,next) => {
